@@ -1,0 +1,446 @@
+.activeclick{
+	border-bottom: 2px solid blue;
+}
+
+
+
+
+#mainsidenav{
+	 background: white;
+	 width: 26%;
+	 position: fixed;
+	 z-index: 9999;
+ 	 top: 11%;
+ 	 height: 100%;
+ 	 padding-top: 100px;
+ 	 overflow: auto;
+ 	 left: -100%;
+}
+
+
+.homeheader{
+ 	 background-image: url(./img/headerimg.png);
+ 	 background-size: cover;
+}
+ 
+ @media only screen and (min-width: 1024px)
+ {
+ 	 .stockgrid{
+  	 	width: 90% !important;
+ 	  margin: 280px 110px !important;
+ 	 }
+
+ }
+
+ @media only screen and (min-width: 1500px)
+ {
+ 	 
+   .stockgrid{
+  	 	 width: 90% !important;
+ 	 	 margin-right: 60px !important;
+ 	 margin-top: 280px !important;
+   		float: right !important;
+   	}
+
+
+ 	.content-grid{
+  		width: 100% !important;
+ 	}
+ 	.privacygrid{
+  		 width: 100% !important;
+ 		 margin: 0 !important;
+ 	}
+ 	.postbox{
+ 		width: 100% !important;
+ 	}
+ 	.mpgrid{ 
+ 		width: 100% !important; 
+  	 }
+  	 .feedgrid{
+   	 	 width: 88% !important;
+  	 	 margin: 290px auto !important;
+  	 }
+  	 .stockgrid{
+  	 	 width: 90% !important;
+		margin-left: 50px !important;  	 	 
+  	 }
+  	 .setttinggrid{
+  	 	margin-left: 0px !important;
+  	 }
+ 	.mockup{
+ 		 margin-top: -158px !important;
+ 	}
+ 	.postblog{
+ 		 width: 80% !important;
+ 	}
+ }
+ 
+
+
+@media screen and (max-width: 992px){
+	
+
+	.simple-tab-items{
+		 width: 90% !important;
+		 overflow-y: hidden;
+		 margin: 0 auto !important;
+	}
+ 
+
+	.order_book{
+		 width: 93% !important;
+ 	}
+		 .stockgrid{
+  	 	 margin : 200px 20px !important;
+ 	 	 width: 90% !important;
+ 	 }
+
+	 
+	.marketgrid{
+   		 margin-top: -60px !important;
+	}
+
+ 	.mocup{
+ 		margin-top: -160px !important;
+
+  	}
+
+
+	 .bloggrid{
+ 		 margin: 0 auto !important;
+		 width: 80% !important;
+		 text-align: center !important;
+ 	}
+	}
+	}
+
+	.realbutton{
+		 margin-right: 30px !important;
+	}
+
+	.smlist{
+  		 overflow: auto;
+	}
+	.smleftside{
+		 display: block !important;
+	}
+}
+.smleftside{
+	 left: -100% !important;
+	 display: none;
+}
+
+.mainsideactive{
+	 left: 0 !important;
+ }
+
+.smleftactive{
+	left: 0 !important;
+}
+
+
+.smopacity{
+	 background: red !important;
+}
+
+.trigclose{
+	 left: -100% !important;
+}
+
+input::placeholder{
+	color: grey !important; 
+} 
+
+.cardwrapper{
+	 width: 100%;
+	 display: flex;
+	 justify-content: space-between;
+ 	 height: auto;
+	 flex-wrap: wrap;
+}
+.cardbox{
+	 width: 47%;
+	 margin:  10px;
+	 height: auto;
+	 background: white;
+	 border-radius: 20px;
+	 height: 640px;
+}
+.userimg{
+	 margin-top: -60px;
+}
+.ads{
+	 display: flex;
+	 justify-content: space-between;
+	 width: 100%;
+}
+
+.adbox{
+	 width: 47%;
+	 margin:  10px;
+ }
+.adbox img{
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 20px;
+	 object-fit: cover;
+}
+
+
+
+.joinbtn{
+	 background: #4f4ac8 !important;
+	 font-size: 19px !important;
+}
+.hbtn{
+	 width: 110px;
+	 height: 40px;
+	 font-size: 18px !important;
+}
+
+.btnn{
+	 height: 50px !important;
+	 width: 155px !important;
+	 font-size: 18px !important;
+}
+.supportbtn{
+	 background: #615dfa;
+	 padding: 10px;
+}
+
+
+#sidetogglee{
+	 width: 25%;
+	 padding: 10px;
+	 background: white;
+	 position: fixed;
+	 top: 26%;
+	 height: 100vh;
+	 overflow: scroll;
+	 left: -100%;
+	 z-index: 9999;
+
+}
+
+.mybtn button{
+	 
+}
+
+.bgimg{
+	 background-image: url(./img/bgimg.png);
+}
+
+#curvebox{
+	position: relative;
+}
+#curvebox::before{
+	content: "";
+	position: absolute;
+	width: 200px;
+	height: 200px;
+ 	top: -50%;
+ 	z-index: -9999;
+	left: -16%;
+	background-image: url(./img/sidecurve.png);
+ 	background-size: 80% 110%;
+ 	background-repeat: no-repeat;
+ 	transform: rotate(180deg);
+ 	opacity: 0.6;
+ 	background-position: left;
+}
+
+.mybtn-sm{
+	 display: flex;
+}
+
+.toggleactive{
+ 	 left: 0 !important;
+}
+
+
+
+
+
+.content-grid{
+	 width: 100%;
+ 
+}
+.sbox::placeholder{
+	 color: grey !important;
+}
+
+
+
+
+
+.box1 p{
+	 font-size: 15px !important;
+}
+
+
+.mysearch::placeholder{
+	 color: grey !important;
+}
+
+.orderbook{
+	 display: none !important;
+}
+@media screen and (max-width:  768px)
+{ 
+.mocup{
+ 		margin-top: -160px !important;
+
+  	}
+.privacyboxx{
+ 	width: 97% !important;
+	margin: 0 auto !important;
+}
+	.ranksection{
+		 margin-top: 10px !important;
+	}
+	.smlist{
+		 width: 90%;
+ 		 font-size: 14px;
+		 display: flex;
+		 margin: 0 auto;
+	}
+	#smwidgetbox, #smgraf, .orderbook, #smdatatop{
+		 width: 90% !important;
+		margin: 0 auto;
+	}
+   .giveimg{
+   	width: 30px !important;
+   	margin-right: 400px !important;
+   }
+	.orderbook{
+		 display: block !important;
+	}
+  .quick-post{
+  	display: none !important;
+  }
+
+	.widget-box{
+ 		 width: 90% !important;
+		 margin: 0 auto !important;
+	}
+
+	#faq2text{
+ 		margin-top: -10px !important;
+ 	}
+	#faqtext{
+		 margin-top: -20px !important;
+	}
+	.faqcontainer{
+		 margin-top: -70px !important;
+	}
+	 .leftsidebox{
+	 	 width: 90% !important;
+	 	 margin: 0 auto;
+	 }
+	.quick-post, .boxone{
+		width: 90% !important;
+		margin: 0 auto;
+
+	}
+	.newsbanner{
+		width: 90% !important;
+		margin: 0 auto;
+	}
+	.m_add{
+		 width: 60% !important;
+		 margin-left: 100px !important;
+		 margin-top: 20px !important;
+		}
+	.pfaqbox{
+		width: 100% !important;
+		margin-top: 20px;
+	}
+   #faqbox{
+   	height: 400px !important;
+   }
+	.faqwidgerbox{
+		width: 100% !important;
+		margin: 0 auto !important;
+	}
+	#widgetsmbox{
+ 		 width: 90% !important;
+		 margin:  0 auto;
+	}
+	.profile-header, .profileimgg{
+		border-radius: 40px !important;
+	}
+		.cardsection{
+			 margin-top: -50px !important;
+		}
+ 
+		.content-grid{
+			 width: 100% !important;
+			 margin-left: 0px !important;
+ 		}
+		.widget-box{
+			 width: 100% !important;
+		}
+		.section-banner{
+			width: 90%;
+			margin:  0 auto;
+		}
+
+
+
+  /*channel page section */ 
+	.searchbox{
+		width: 100% !important;
+	}
+	.searchbox input{
+		 width: 100% !important;
+	}
+	 .channeldataa{
+	 	 display: none;
+	 }
+	.left-side{
+		 display: none;
+	}
+	 .main_content_section{
+ 	 	margin-top: -100px !important;
+	 	margin-left: 30px !important ;
+	 }
+	 .cardwrapper{
+	 	 flex-direction: column;
+	 }
+	 .cardbox{
+	 	 width: 90%;
+	 	 margin: 20px auto;
+	 }
+}
+
+
+
+
+
+@media screen and (max-width: 576px)
+{
+
+	.content-grid{
+		 margin-left: -100% !important;
+		 left: -100% !important;
+	}
+	 .widget-box{
+	 	 width: 100%;
+ 	 }
+ 	 .m_banner-faq{
+ 	 	 margin-top: 0px !important;
+ 	 }
+
+}
+
+
+
+/*
+channel 
+earning calednar
+faq
+faq2
+terms andcondition
+rankingpaege
+stockdetils
+privacypoili*/
